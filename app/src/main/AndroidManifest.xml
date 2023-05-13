@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/qrlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewQrScanner"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin.QrView"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserAcceptList"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminRequestList"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".User.UserMainActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".Admin.AdminEventList"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".User.EventList"
+            android:exported="false" />
+        <activity
+            android:name=".User.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".User.Login"
+            android:exported="false" />
+        <activity
+            android:name=".User.QrShow"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.QrScanner"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.QrGenerator"
+            android:exported="false" />
+        <activity
+            android:name=".User.UserMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

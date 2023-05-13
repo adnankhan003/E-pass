@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971049184890",
+    "project_id": "e-pass-5701a",
+    "storage_bucket": "e-pass-5701a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971049184890:android:3acc5322c6b29f736d55c3",
+        "android_client_info": {
+          "package_name": "com.example.newqrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971049184890-94634rv20vocup0q2p1s4ua0e4rkuivr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQm0cAsaYzAvX4ntEmyCQrL8zRx4j0wPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971049184890-94634rv20vocup0q2p1s4ua0e4rkuivr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
