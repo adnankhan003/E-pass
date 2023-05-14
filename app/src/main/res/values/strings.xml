@@ -33,4 +33,6 @@
     <string name="accept">ACCEPT</string>
     <string name="reject">REJECT</string>
     <string name="register">REGISTER</string>
+    <string name="epass">E-pass</string>
+    <string name="go_to_admin">Go to Admin</string>
 </resources>

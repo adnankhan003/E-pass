@@ -12,6 +12,9 @@
         android:theme="@style/Theme.NewQrScanner"
         tools:targetApi="31">
         <activity
+            android:name=".User.UserMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Admin.QrView"
             android:exported="false" />
         <activity
@@ -19,8 +22,7 @@
             android:exported="false" />
         <activity
             android:name=".Admin.AdminRequestList"
-            android:exported="false" />
-        <!-- <activity -->
+            android:exported="false" /> <!-- <activity -->
         <!-- android:name=".User.UserMainActivity" -->
         <!-- android:exported="false" /> -->
         <activity
@@ -51,7 +53,7 @@
             android:name=".Admin.QrGenerator"
             android:exported="false" />
         <activity
-            android:name=".User.UserMainActivity"
+            android:name=".FlashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
