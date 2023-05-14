@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">E-PASS</string>
+    <string name="username_or_email">username or email</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+    <string name="admin_login">ADMIN LOGIN</string>
+    <string name="go_to_user_login">go to user login</string>
+    <string name="signup">SIGNUP</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="go_to_login_page">Go to Login Page</string>
+    <string name="go_to_signup_page">Go to signup Page</string>
+    <string name="email">email</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="admin_event_list">admin event list</string>
+    <string name="view_events">view events</string>
+    <string name="event_name">Event name</string>
+    <string name="dated_on">Dated on</string>
+    <string name="time">Time (Also mention am or pm)</string>
+    <string name="no_of_person_allowed">No of person allowed</string>
+    <string name="generate">generate</string>
+    <string name="qr_generate">QR GENERATE</string>
+    <string name="event_list">event List</string>
+    <string name="accepted_list">Accepted List</string>
+    <string name="view_request">View Request</string>
+    <string name="_12_10">12:10</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string name="title">title</string>
+    <string name="gmail">gmail</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="status">status</string>
+    <string name="accept">ACCEPT</string>
+    <string name="reject">REJECT</string>
+    <string name="register">REGISTER</string>
 </resources>

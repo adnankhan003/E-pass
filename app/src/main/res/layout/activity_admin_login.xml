@@ -13,9 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="80dp"
         android:padding="10dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp"
@@ -38,7 +37,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="27dp"
                 android:layout_marginEnd="32dp"
-                android:text="ADMIN LOGIN"
+                android:text="@string/admin_login"
                 android:textAlignment="center"
                 android:textColor="#6200ED"
                 android:textSize="20sp"
@@ -51,9 +50,13 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="24dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:drawableStart="@drawable/email_clip"
+                android:drawablePadding="10dp"
                 android:background="@drawable/edittext"
                 android:ems="10"
-                android:hint="GMAIL"
+                android:hint="@string/username_or_email"
                 android:inputType="textPersonName"
                 android:padding="10dp" />
 
@@ -62,11 +65,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="24dp"
                 android:background="@drawable/edittext"
                 android:ems="10"
-                android:hint="PASSWORD"
+                android:drawableStart="@drawable/password_clip"
+                android:drawablePadding="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:hint="@string/password"
                 android:inputType="textPersonName"
                 android:padding="10dp" />
 
@@ -75,9 +82,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="25dp"
                 android:layout_marginEnd="100dp"
-                android:text=" LOGIN " />
+                android:text="@string/login" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -90,7 +97,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/purple_500"
-        android:text="go to user login"
+        android:text="@string/go_to_user_login"
         android:textColor="@color/white"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
